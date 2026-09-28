@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/vaultatom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vault config/atom key checks for twelve-factor services.",
+  "bin": {
+    "vaultatom": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/vaultatom.git"
+  },
+  "homepage": "https://theworker02.github.io/vaultatom/",
+  "keywords": [
+    "vault",
+    "atom",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
